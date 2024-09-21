@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+  <h2>Formilário HTML</h2>
+  <forma action="rester.php" method="CET">
+    <!-- Primeiro formulário -->
+    <div>
+      <label > Nome</label>
+      <input type="text">
+    </div>
+    <!-- for -->
+    <div>
+      <label for="age"> Idade</label>
+      <input type="text" name="age">
+    </div>
+    <!-- select/opition -->
+    <div>
+      <label for="job">Selecione uma profissão</label>
+      <select name="job" id="job">
+        <option value="programador">Programador</option>
+        <option value="Desagner">Desagner</option>
+        <option value="Analidados">Analista de dados</option>
+      </select>
+    </div>
+    <div>
+      <label for="contract">Você leu os termos do contrato?</label>
+      <select name="contract">
+        <option value="Sim">Sim</option>
+        <option value="Nao" selected>Não</option>
+      </select>
+    </div>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

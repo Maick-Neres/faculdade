@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(17, 23, 26);
+}
+.box{
+  width: 33%;
+  height: 40px;
+  border: 1px solid red;
+}
+
+.center{
+  display: flex;
+  height: 200px;
+  border: 1px solid green;
+  justify-content:center;
+  align-items: center;
+  
+}
+
+
+.center .box{
+  border: 1px solid red;
+  width: 50px;
+}
+
+#one{
+  order: 1;
+  color: white;
+}
+
+#two{
+  order: 2;
+  color: white;
+}
+
+#tree{
+  order: 3;
+}
